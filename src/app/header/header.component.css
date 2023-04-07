@@ -1,0 +1,33 @@
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f07f62;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  width: 99vw;
+  height: 75px;
+}
+
+#search {
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#search-text {
+  border: none;
+  width: 250px;
+  height: 40px;
+}
+
+#search-button {
+  border-radius: 0%;
+  border: none;
+  width: 60px;
+  height: 42px;
+  background-color: #e0a76e;
+  font-family: "Domine", serif;
+}
