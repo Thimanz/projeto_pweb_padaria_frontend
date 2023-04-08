@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
+import { ProdutoBuscaComponent } from './produto-busca/produto-busca.component';
+import { CestaComponent } from './cesta/cesta.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    VitrineComponent
+    VitrineComponent,
+    ProdutoBuscaComponent,
+    CestaComponent
   ],
   imports: [
     BrowserModule,

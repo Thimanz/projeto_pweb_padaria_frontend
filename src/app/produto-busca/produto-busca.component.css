@@ -1,0 +1,50 @@
+#pageSearch {
+  width: 100%;
+  height: 100%;
+}
+#componentBody {
+  border: 1px black solid;
+  width: 90%;
+  height: 90%;
+  margin-left: 81.6px;
+  margin-top: 40px;
+}
+.menu {
+  margin-left: 81.6px;
+  padding: 0px;
+  width: 90%;
+  text-align: center;
+  font-size: 30px;
+  padding: 0%;
+}
+.menu p {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkorange;
+}
+.topline {
+  border: 2px black solid;
+  margin-left: 153.2px;
+  width: 80%;
+  margin-top: 20px;
+}
+.downline {
+  border: 2px black solid;
+  margin-left: 153.2px;
+  width: 80%;
+}
+.textBody{
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkorange;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#imgConfig{
+    margin-left: 50px;
+}
+#imgConfig img{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
