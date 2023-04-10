@@ -1,194 +1,162 @@
-{ 
-    "Bolacha Trakinas": {
-      "descricao": "Bolacha Trankinas",
-      "imagem": "../assets/img/trakinas.jpg",
-      "descricaoCompleta": "",
-      "preco": 5.0
-    },
-    "Bolacha Bauducco": {
-      "descricao": "Bolacha Bauducco Recheada ",
-      "imagem": "../assets/img/bauducco.jpg",
-      "descricaoCompleta": "",
-      "preco": 5.50
-    },
-    "Bolacha Bauducco Chocolate": {
-      "descricao": "Bolacha Bauducco Chocolate",
-      "imagem": "../assets/img/bauducco2.jpg",
-      "descricaoCompleta": "",
-      "preco": 4.50
-    },
-    "Bolacha Bono": {
-      "descricao": "Bolacha Bono",
-      "imagem": "../assets/img/bono.jpg",
-      "descricaoCompleta": "",
-      "preco": 3.50
-    },
-    "Bolacha Oreo": {
-      "descricao": "Bolacha Oreo",
-      "imagem": "../assets/img/bauducco.jpg",
-      "descricaoCompleta": "",
-      "preco": 4.25
-    },
-    "Bolacha Panco": {
-      "descricao": "Bolacha Panco",
-      "imagem": "../assets/img/panco.jpg",
-      "descricaoCompleta": "",
-      "preco": 5.50
-    },
-    "Bolacha Passatempo": {
-      "descricao": "Bolacha Passatempo",
-      "imagem": "../assets/img/passatempo.jpg",
-      "descricaoCompleta": "",
-      "preco": 4.00
-    },
-    "Bolacha Toddy": {
-      "descricao": "Bolacha Toddy",
-      "imagem": "../assets/img/toddy.jpg",
-      "descricaoCompleta": "",
-      "preco": 3.50
-    },
-    "Bolacha Toddy Morango": {
-      "descricao": "Bolacha Toddy Morango",
-      "imagem": "../assets/img/toddy2.jpg",
-      "descricaoCompleta": "",
-      "preco": 3.50
-    },
+{
+  "Bolacha Trakinas": {
+    "imagem": "../assets/img/trakinas.jpg",
+    "descricao": "Bolacha Trankinas",
+    "preco": 5.0
+  },
+  "Bolacha Bauducco": {
+    "imagem": "../assets/img/bauducco.jpg",
+    "descricao": "Bolacha Bauducco Recheada ",
+    "preco": 5.5
+  },
+  "Bolacha Bauducco Chocolate": {
+    "imagem": "../assets/img/bauducco2.jpg",
+    "descricao": "Bolacha Bauducco Chocolate",
+    "preco": 4.5
+  },
+  "Bolacha Bono": {
+    "imagem": "../assets/img/bono.jpg",
+    "descricao": "Bolacha Bono",
+    "preco": 3.5
+  },
+  "Bolacha Oreo": {
+    "imagem": "../assets/img/bauducco.jpg",
+    "descricao": "Bolacha Oreo",
+    "preco": 4.25
+  },
+  "Bolacha Panco": {
+    "imagem": "../assets/img/panco.jpg",
+    "descricao": "Bolacha Panco",
+    "preco": 5.5
+  },
+  "Bolacha Passatempo": {
+    "imagem": "../assets/img/passatempo.jpg",
+    "descricao": "Bolacha Passatempo",
+    "preco": 4.0
+  },
+  "Bolacha Toddy": {
+    "imagem": "../assets/img/toddy.jpg",
+    "descricao": "Bolacha Toddy",
+    "preco": 3.5
+  },
+  "Bolacha Toddy Morango": {
+    "imagem": "../assets/img/toddy2.jpg",
+    "descricao": "Bolacha Toddy Morango",
+    "preco": 3.5
+  },
   "Lanche Bauruzinho": {
-    "descricao": "Lanche Bauruzinho",
     "imagem": "../assets/img/bauruzinho.jpg",
-    "descricaoCompleta": "",
-    "preco": 7.00
+    "descricao": "Lanche Bauruzinho",
+    "preco": 7.0
   },
   "Doce Beijinho": {
-    "descricao": "Doce Beijinho",
     "imagem": "../assets/img/beijinho.jpg",
-    "descricaoCompleta": "",
-    "preco": 2.50
+    "descricao": "Doce Beijinho",
+    "preco": 2.5
   },
   "Doce Bicho de Pe": {
-    "descricao": "Doce Bicho de Pe",
     "imagem": "../assets/img/bichodepe.jpg",
-    "descricaoCompleta": "",
-    "preco": 2.50
+    "descricao": "Doce Bicho de Pe",
+    "preco": 2.5
   },
   "Bolo de Chocolate": {
-    "descricao": "Bolo de Chocolate",
     "imagem": "../assets/img/bolodechocolate.jpg",
-    "descricaoCompleta": "",
-    "preco": 25.00
+    "descricao": "Bolo de Chocolate",
+    "preco": 25.0
   },
   "Bolo de Coco": {
-    "descricao": "Bolo de Coco",
     "imagem": "../assets/img/bolodechocolate.jpg",
-    "descricaoCompleta": "",
-    "preco": 20.00
+    "descricao": "Bolo de Coco",
+    "preco": 20.0
   },
   "Doce Brigadeiro": {
-    "descricao": "Doce Brigadeiro",
     "imagem": "../assets/img/brigadeiro.jpg",
-    "descricaoCompleta": "",
-    "preco": 2.50
+    "descricao": "Doce Brigadeiro",
+    "preco": 2.5
   },
   "Doce Cajuzinho": {
-    "descricao": "Doce Cajuzinho",
     "imagem": "../assets/img/cajuzinho.jpg",
-    "descricaoCompleta": "",
-    "preco": 2.50
+    "descricao": "Doce Cajuzinho",
+    "preco": 2.5
   },
   "Cafe com Leite": {
-    "descricao": "Cafe com Leite",
     "imagem": "../assets/img/cafecomleite.jpg",
-    "descricaoCompleta": "",
-    "preco": 7.00
+    "descricao": "Cafe com Leite",
+    "preco": 7.0
   },
   "Cafe Cappuccino": {
-    "descricao": "Cappuccino",
     "imagem": "../assets/img/cappuccino.jpg",
-    "descricaoCompleta": "",
-    "preco": 12.00
+    "descricao": "Cappuccino",
+    "preco": 12.0
   },
   "Doce Carolina": {
-    "descricao": "Carolina",
     "imagem": "../assets/img/carolinas.jpg",
-    "descricaoCompleta": "",
-    "preco": 2.50
+    "descricao": "Carolina",
+    "preco": 2.5
   },
   "Cafe Coado": {
-    "descricao": "Cafe Coado",
     "imagem": "../assets/img/coado.jpg",
-    "descricaoCompleta": "",
-    "preco": 4.00
+    "descricao": "Cafe Coado",
+    "preco": 4.0
   },
   "Cafe Expresso": {
-    "descricao": "Cafe Express",
     "imagem": "../assets/img/expresso.jpg",
-    "descricaoCompleta": "",
-    "preco": 6.00
+    "descricao": "Cafe Express",
+    "preco": 6.0
   },
   "Pao Frances": {
-    "descricao": "Pao Frances",
     "imagem": "../assets/img/frances.jpg",
-    "descricaoCompleta": "",
-    "preco": 2.00
+    "descricao": "Pao Frances",
+    "preco": 2.0
   },
   "Pao Integral": {
-    "descricao": "Pao Integral",
     "imagem": "../assets/img/integral.jpg",
-    "descricaoCompleta": "",
-    "preco": 9.00
+    "descricao": "Pao Integral",
+    "preco": 9.0
   },
   "Pao Mix de Graos": {
-    "descricao": "Pao Mix de Graos",
     "imagem": "../assets/img/mixdegraos.jpg",
-    "descricaoCompleta": "",
-    "preco": 15.00
+    "descricao": "Pao Mix de Graos",
+    "preco": 15.0
   },
   "Cafe Mocaccino": {
-    "descricao": "Mocaccino",
     "imagem": "../assets/img/mocaccino.jpg",
-    "descricaoCompleta": "",
-    "preco": 17.00
+    "descricao": "Mocaccino",
+    "preco": 17.0
   },
   "Lanche Pao com Ovo": {
-    "descricao": "Pao com Ovo",
     "imagem": "../assets/img/paocomovo.jpg",
-    "descricaoCompleta": "",
-    "preco": 5.00
+    "descricao": "Pao com Ovo",
+    "preco": 5.0
   },
   "Pao de Leite": {
-    "descricao": "Pao de Leite",
     "imagem": "../assets/img/paodeleite.jpg",
-    "descricaoCompleta": "",
-    "preco": 3.00
+    "descricao": "Pao de Leite",
+    "preco": 3.0
   },
   "Pao de Queijo": {
-    "descricao": "Pao de Queijo",
     "imagem": "../assets/img/paodequeijo.jpg",
-    "descricaoCompleta": "",
-    "preco": 1.50
+    "descricao": "Pao de Queijo",
+    "preco": 1.5
   },
   "Lanche Pao na Chapa": {
-    "descricao": "Pao na Chapa",
     "imagem": "../assets/img/paonachapa.jpg",
-    "descricaoCompleta": "",
-    "preco": 5.50
+    "descricao": "Pao na Chapa",
+    "preco": 5.5
   },
   "Lanche Pao na Chapa Com Requeijao": {
+    "imagem": "../assets/img/paonachapacomreq.jpg",
     "descricao": "Pao na Chapa com Requeijao",
-    "imagem": "../assets/img/paonachapa.jpg",
-    "descricaoCompleta": "",
-    "preco": 7.50
+    "preco": 7.5
   },
   "Pao Sovado": {
-    "descricao": "Pao Sovado",
     "imagem": "../assets/img/sovado.jpg",
-    "descricaoCompleta": "",
-    "preco": 12.00
+    "descricao": "Pao Sovado",
+    "preco": 12.0
   },
   "Torta de Frango": {
-    "descricao": "Torta de Frango",
     "imagem": "../assets/img/tortadefrango.jpg",
-    "descricaoCompleta": "",
-    "preco": 7.00
+    "descricao": "Torta de Frango",
+    "preco": 7.0
   }
 }

@@ -9,18 +9,15 @@
     <div class="textBody">
       <p> Pesquisa por: {{ produtosObject.descricao }}</p>
     </div>
-    <div id="imgConfig">
-      <img :src="importImag()" alt="imagem do produto" width="300" height="300" />
+    <div *ngFor="let produtos of produtosObject | keyvalue">
+      <div *ngFor="let produto of $any(produtos.value)| keyvalue: returnZero">
+        <ng-container *ngIf="produto.key === 'imagem'; else naoImag">
+          <img src="{{produto.value}}" alt="imagem de produto" width="200" height="200">
+        </ng-container>
+        <ng-template #naoImag>
+          {{produto.value}}
+        </ng-template>
+      </div>
     </div>
   </div>
 </div>
-<script>
-  export default {
-    methods: {
-      importImag() {
-        return require(`../../assets/img/${this.produtosObject.imagem}.jpg`);
-      }
-    }
-  }
-
-</script>
