@@ -10,7 +10,12 @@
       <ng-container
         *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
       >
-        <ng-container [ngSwitch]="produto.key">
+        <div
+          [ngSwitch]="produto.key"
+          id="linkDetalhe"
+          [routerLink]="['/detalhes']"
+          routerLinkActive="router-link-active"
+        >
           <img
             *ngSwitchCase="'imagem'"
             src="{{ produto.value }}"
@@ -19,8 +24,8 @@
             height="200"
           />
           <h4 *ngSwitchCase="'preco'">R${{ produto.value }}</h4>
-          <p *ngSwitchDefault>{{ produto.value }}</p>
-        </ng-container>
+          <p *ngSwitchDefault id="descricao">{{ produto.value }}</p>
+        </div>
       </ng-container>
       <button id="comprar">Comprar</button>
     </div>

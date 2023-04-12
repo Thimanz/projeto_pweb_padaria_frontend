@@ -1,26 +1,26 @@
 {
   "Bolacha Trakinas": {
-    "imagem": "../assets/img/trakinas.jpg",
+    "imagem": "../assets/img/trakinas.png",
     "descricao": "Bolacha Trankinas",
     "preco": 5.0
   },
   "Bolacha Bauducco": {
-    "imagem": "../assets/img/bauducco.jpg",
+    "imagem": "../assets/img/bauducco.png",
     "descricao": "Bolacha Bauducco Recheada ",
     "preco": 5.5
   },
   "Bolacha Bauducco Chocolate": {
-    "imagem": "../assets/img/bauducco2.jpg",
+    "imagem": "../assets/img/bauducco2.png",
     "descricao": "Bolacha Bauducco Chocolate",
     "preco": 4.5
   },
   "Bolacha Bono": {
-    "imagem": "../assets/img/bono.jpg",
+    "imagem": "../assets/img/bono.png",
     "descricao": "Bolacha Bono",
     "preco": 3.5
   },
   "Bolacha Oreo": {
-    "imagem": "../assets/img/bauducco.jpg",
+    "imagem": "../assets/img/bauducco.png",
     "descricao": "Bolacha Oreo",
     "preco": 4.25
   },
@@ -30,17 +30,17 @@
     "preco": 5.5
   },
   "Bolacha Passatempo": {
-    "imagem": "../assets/img/passatempo.jpg",
+    "imagem": "../assets/img/passatempo.png",
     "descricao": "Bolacha Passatempo",
     "preco": 4.0
   },
   "Bolacha Toddy": {
-    "imagem": "../assets/img/toddy.jpg",
+    "imagem": "../assets/img/toddy.png",
     "descricao": "Bolacha Toddy",
     "preco": 3.5
   },
   "Bolacha Toddy Morango": {
-    "imagem": "../assets/img/toddy2.jpg",
+    "imagem": "../assets/img/toddy2.png",
     "descricao": "Bolacha Toddy Morango",
     "preco": 3.5
   },
@@ -65,7 +65,7 @@
     "preco": 25.0
   },
   "Bolo de Coco": {
-    "imagem": "../assets/img/bolodechocolate.jpg",
+    "imagem": "../assets/img/bolodecoco.jpg",
     "descricao": "Bolo de Coco",
     "preco": 20.0
   },
@@ -90,7 +90,7 @@
     "preco": 12.0
   },
   "Doce Carolina": {
-    "imagem": "../assets/img/carolinas.jpg",
+    "imagem": "../assets/img/carolinas.png",
     "descricao": "Carolina",
     "preco": 2.5
   },
@@ -110,7 +110,7 @@
     "preco": 2.0
   },
   "Pao Integral": {
-    "imagem": "../assets/img/integral.jpg",
+    "imagem": "../assets/img/integral.png",
     "descricao": "Pao Integral",
     "preco": 9.0
   },
@@ -125,7 +125,7 @@
     "preco": 17.0
   },
   "Lanche Pao com Ovo": {
-    "imagem": "../assets/img/paocomovo.jpg",
+    "imagem": "../assets/img/paocomovo.png",
     "descricao": "Pao com Ovo",
     "preco": 5.0
   },
