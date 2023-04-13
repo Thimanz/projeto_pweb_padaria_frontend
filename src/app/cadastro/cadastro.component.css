@@ -1,0 +1,66 @@
+#dadosInvalidos {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+legend {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+input {
+  height: 15px;
+  width: 200px;
+}
+#principal {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7e6be;
+}
+.Divzada {
+  font-size: 15px;
+}
+/* input {
+  position: relative;
+} */
+.InputUsu {
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+p {
+  font-weight: bold;
+}
+
+#cadastrar {
+  margin-top: 1em;
+  width: 200px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #faae47;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#cadastrar:hover {
+  background: #e38d34;
+}
+#cadastrar:active {
+  background: #fb8f3a;
+}
+#conteudo {
+  width: 650px;
+  height: 85vh;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #f7ce87;
+  box-shadow: 0px 18px 30px 0px rgba(0, 0, 0, 0.2);
+}
