@@ -1,5 +1,7 @@
-fieldset {
-  border: none;
+#dadosInvalidos {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 }
 legend {
   text-align: center;
@@ -32,7 +34,6 @@ input {
   outline: none;
 }
 p {
-  padding: 0px;
   font-weight: bold;
 }
 
@@ -42,7 +43,7 @@ p {
   height: 30px;
   font-weight: bold;
   background-color: #faae47;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 #cadastrar:hover {
@@ -53,7 +54,7 @@ p {
 }
 #conteudo {
   width: 650px;
-  height: 80vh;
+  height: 85vh;
   border-radius: 15px;
   display: flex;
   flex-direction: column;

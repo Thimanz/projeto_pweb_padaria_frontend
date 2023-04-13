@@ -1,29 +1,36 @@
-<div id="principal">
-  <div id="bloco">
-    <div id="DivEsquerda">
-      <h3>Já possuo Cadastro</h3>
+<form class="form-control" [formGroup]="infoLogin">
+  <div id="principal">
+    <div id="bloco">
+      <div id="DivEsquerda">
+        <h3>Já possuo Cadastro</h3>
 
-      <div id="DivEmail">
-        <p id="EmailP">Email:</p>
-        <input type="text" id="emailLogin" />
+        <div id="inputEmail">
+          <p id="EmailP">Email:</p>
+          <input type="email" id="emailLogin" formControlName="email" />
+        </div>
+        <div id="DivSenha">
+          <p id="SenhaP">Senha:</p>
+          <input type="password" id="senhaLogin" formControlName="senha" />
+        </div>
+        <button id="Entrar" (click)="onClick()">Entrar</button>
+        <p id="dadosInvalidos" *ngIf="!formularioValido">
+          Email ou senha invalidos !
+        </p>
+        <a
+          [routerLink]="['/esqueci-senha']"
+          routerLinkActive="router-link-active"
+          >Esqueci minha senha</a
+        >
       </div>
-      <div id="DivSenha">
-        <p id="SenhaP">Senha:</p>
-        <input type="password" id="senhaLogin" size="20" required="" />
-      </div>
-      <button id="Entrar">Entrar</button>
-      <a [routerLink]="['/esqueci-senha']" routerLinkActive="router-link-active"
-        >Esqueci minha senha</a
-      >
-    </div>
-    <div id="DivDireita">
-      <h2>Ainda não possuo conta</h2>
+      <div id="DivDireita">
+        <h2>Ainda não possuo conta</h2>
 
-      <h3>
-        <a [routerLink]="['/cadastro']" routerLinkActive="router-link-active">
-          clique aqui para criar sua conta
-        </a>
-      </h3>
+        <h3>
+          <a [routerLink]="['/cadastro']" routerLinkActive="router-link-active">
+            clique aqui para criar sua conta
+          </a>
+        </h3>
+      </div>
     </div>
   </div>
-</div>
+</form>
