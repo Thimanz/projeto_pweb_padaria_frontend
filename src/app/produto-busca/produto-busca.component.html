@@ -1,23 +1,46 @@
 <div id="pageSearch">
   <div class="topline"></div>
   <div class="menu">
-    <p>Menu</p>
+  <nav>
+    <ul>
+      <li><a id="linkVitrine" [routerLink]="['/vitrine']" routerLinkActive="router-link-active">VITRINE</a></li>
+      <li><a id="linkBusca" [routerLink]="['/produto-busca']" routerLinkActive="router-link-active">PRODUTOS</a></li>
+      <li><a href="header.component.htlm">LOGIN</a></li>      
+    </ul>
+  </nav>
   </div>
   <div class="downline"></div>
 
+  <div class="textBody">
+    <span> Pesquisa por:
+    </span>
+  </div> 
   <div id="componentBody">
-    <div class="textBody">
-      <p> Pesquisa por: {{ produtosObject.descricao }}</p>
-    </div>
-    <div *ngFor="let produtos of produtosObject | keyvalue">
-      <div *ngFor="let produto of $any(produtos.value)| keyvalue: returnZero">
-        <ng-container *ngIf="produto.key === 'imagem'; else naoImag">
-          <img src="{{produto.value}}" alt="imagem de produto" width="200" height="200">
-        </ng-container>
-        <ng-template #naoImag>
-          {{produto.value}}
-        </ng-template>
-      </div>
-    </div>
+    <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">
+      <ng-container
+        *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
+      >
+        <div          
+        [ngSwitch]="produto.key"
+        id="linkDetalhe"
+        [routerLink]="['/produto-busca']"
+        routerLinkActive="router-link-active">
+          <img
+            *ngSwitchCase="'imagem'"
+            src="{{ produto.value }}"
+            alt="imagem de produto"
+            width="200"
+            height="200"
+          />
+          <h4 *ngSwitchCase="'preco'">R$ {{ produto.value }}</h4>
+          <p *ngSwitchDefault id="descricao">{{ produto.value }}</p>
+        </div>
+      </ng-container>
+      <div class="cesta">
+      <a>
+      <input type="button" value="Comprar" id="comprar" [routerLink]="['/cesta']" routerLinkActive="router-link-active"/>
+    </a>
+  </div>
+    </div>    
   </div>
 </div>

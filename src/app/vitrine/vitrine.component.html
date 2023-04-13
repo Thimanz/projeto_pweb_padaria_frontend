@@ -1,7 +1,13 @@
 <div id="pageVitrine">
   <div class="topline"></div>
   <div class="menu">
-    <p>Menu</p>
+  <nav>
+    <ul>
+      <li><a id="linkVitrine" [routerLink]="['/vitrine']" routerLinkActive="router-link-active">VITRINE</a></li>
+      <li><a id="linkBusca" [routerLink]="['/produto-busca']" routerLinkActive="router-link-active">PRODUTOS</a></li>
+      <li><a href="header.component.htlm">LOGIN</a></li>      
+    </ul>
+  </nav>
   </div>
   <div class="downline"></div>
 
@@ -23,7 +29,7 @@
             width="200"
             height="200"
           />
-          <h4 *ngSwitchCase="'preco'">R${{ produto.value }}</h4>
+          <h4 *ngSwitchCase="'preco'">R$ {{ produto.value }}</h4>
           <p *ngSwitchDefault id="descricao">{{ produto.value }}</p>
         </div>
       </ng-container>

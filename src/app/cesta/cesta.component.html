@@ -1,1 +1,62 @@
-<p>cesta works!</p>
+<div id="pageCesta">
+    <div class="topline"></div>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a id="linkVitrine" [routerLink]="['/vitrine']" routerLinkActive="router-link-active">VITRINE</a>
+                </li>
+                <li><a id="linkBusca" [routerLink]="['/produto-busca']"
+                        routerLinkActive="router-link-active">PRODUTOS</a></li>
+                <li><a href="header.component.htlm">LOGIN</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="downline"></div>
+    <div class="textBody">
+        <span> Sua Cesta
+        </span>
+        <img src="../../assets/img/cestinha.png" width="30" height="24" />
+    </div>
+    <div id="componentBody">
+        <table>
+            <thead>
+            <tr >
+                <th class="cabecalho" colspan="5">Item</th>
+                <th class="cabecalho" colspan="5">Qtd</th>
+                <th class="cabecalho" colspan="5">Valor</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="5">Bolo de Chocolate </td>
+                    <td colspan="5">1x</td>
+                    <td colspan="5">R$ 25.00</td>
+                </tr>
+
+                <tr>
+                    <td colspan="5">Moccacino</td>
+                    <td colspan="5">2x</td>
+                    <td colspan="5">R$ 34.00</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Torta de Frango</td>
+                    <td colspan="5">2x</td>
+                    <td colspan="5">R$ 14.00</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Pão de Leite</td>
+                    <td colspan="5">5x</td>
+                    <td colspan="5">R$ 15.00</td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td class="total" colspan="5">Valor Total: </td> 
+                    <td class="total" colspan="5">R$ 88.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="itemsCesta">  
+            <input type="button" value="Limpar Cesta" id="comprar"/>
+            <input type="button" value="Finalizar Compra" id="comprar"/>
+    </div>
+</div>
