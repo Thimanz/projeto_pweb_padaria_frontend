@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #fdf6e3;
 }
 #componentBody {
   border: 1px black solid;
@@ -110,4 +111,32 @@ nav a {
 nav a:hover {
   color: black;
   text-decoration: underline;
+}
+
+#search {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  position: static;
+  margin-left: 125px;
+  margin-top: -29px;
+  
+}
+
+#search-text {
+  border: none;
+  width: 250px;
+  height: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#search-button {
+  border: none;
+  width: 60px;
+  height: 32px;
+  background-color: #e3a334;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }

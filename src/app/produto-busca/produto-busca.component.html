@@ -5,7 +5,7 @@
     <ul>
       <li><a id="linkVitrine" [routerLink]="['/vitrine']" routerLinkActive="router-link-active">VITRINE</a></li>
       <li><a id="linkBusca" [routerLink]="['/produto-busca']" routerLinkActive="router-link-active">PRODUTOS</a></li>
-      <li><a href="header.component.htlm">LOGIN</a></li>      
+      <li><a  id="linkLogin" [routerLink]="['/login']" routerLinkActive="router-link-active">LOGIN</a></li>      
     </ul>
   </nav>
   </div>
@@ -14,6 +14,23 @@
   <div class="textBody">
     <span> Pesquisa por:
     </span>
+    <div id="search">
+      <input
+        type="text"
+        name="search"
+        id="search-text"
+        autocomplete="off"
+      />
+      <a>
+        <input
+          type="button"
+          value="Ok"
+          id="search-button"
+          [routerLink]="['/produto-busca']"
+          routerLinkActive="router-link-active"
+        />
+      </a>
+    </div>
   </div> 
   <div id="componentBody">
     <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">

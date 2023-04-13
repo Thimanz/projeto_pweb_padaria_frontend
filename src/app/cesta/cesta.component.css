@@ -5,8 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #fdf6e3;
 }
-
 #componentBody {
     border: 1px black solid;
     width: 90%;
