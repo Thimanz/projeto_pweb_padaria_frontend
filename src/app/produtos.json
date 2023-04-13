@@ -1,8 +1,162 @@
 {
   "Bolacha Trakinas": {
+    "imagem": "../assets/img/trakinas.png",
     "descricao": "Bolacha Trankinas",
-    "imagem": "../assets/img/trakinas.jpg",
-    "descricaoCompleta": "",
     "preco": 5.0
+  },
+  "Bolacha Bauducco": {
+    "imagem": "../assets/img/bauducco.png",
+    "descricao": "Bolacha Bauducco Recheada ",
+    "preco": 5.5
+  },
+  "Bolacha Bauducco Chocolate": {
+    "imagem": "../assets/img/bauducco2.png",
+    "descricao": "Bolacha Bauducco Chocolate",
+    "preco": 4.5
+  },
+  "Bolacha Bono": {
+    "imagem": "../assets/img/bono.png",
+    "descricao": "Bolacha Bono",
+    "preco": 3.5
+  },
+  "Bolacha Oreo": {
+    "imagem": "../assets/img/bauducco.png",
+    "descricao": "Bolacha Oreo",
+    "preco": 4.25
+  },
+  "Bolacha Panco": {
+    "imagem": "../assets/img/panco.jpg",
+    "descricao": "Bolacha Panco",
+    "preco": 5.5
+  },
+  "Bolacha Passatempo": {
+    "imagem": "../assets/img/passatempo.png",
+    "descricao": "Bolacha Passatempo",
+    "preco": 4.0
+  },
+  "Bolacha Toddy": {
+    "imagem": "../assets/img/toddy.png",
+    "descricao": "Bolacha Toddy",
+    "preco": 3.5
+  },
+  "Bolacha Toddy Morango": {
+    "imagem": "../assets/img/toddy2.png",
+    "descricao": "Bolacha Toddy Morango",
+    "preco": 3.5
+  },
+  "Lanche Bauruzinho": {
+    "imagem": "../assets/img/bauruzinho.jpg",
+    "descricao": "Lanche Bauruzinho",
+    "preco": 7.0
+  },
+  "Doce Beijinho": {
+    "imagem": "../assets/img/beijinho.jpg",
+    "descricao": "Doce Beijinho",
+    "preco": 2.5
+  },
+  "Doce Bicho de Pe": {
+    "imagem": "../assets/img/bichodepe.jpg",
+    "descricao": "Doce Bicho de Pe",
+    "preco": 2.5
+  },
+  "Bolo de Chocolate": {
+    "imagem": "../assets/img/bolodechocolate.jpg",
+    "descricao": "Bolo de Chocolate",
+    "preco": 25.0
+  },
+  "Bolo de Coco": {
+    "imagem": "../assets/img/bolodecoco.jpg",
+    "descricao": "Bolo de Coco",
+    "preco": 20.0
+  },
+  "Doce Brigadeiro": {
+    "imagem": "../assets/img/brigadeiro.jpg",
+    "descricao": "Doce Brigadeiro",
+    "preco": 2.5
+  },
+  "Doce Cajuzinho": {
+    "imagem": "../assets/img/cajuzinho.jpg",
+    "descricao": "Doce Cajuzinho",
+    "preco": 2.5
+  },
+  "Cafe com Leite": {
+    "imagem": "../assets/img/cafecomleite.jpg",
+    "descricao": "Cafe com Leite",
+    "preco": 7.0
+  },
+  "Cafe Cappuccino": {
+    "imagem": "../assets/img/cappuccino.jpg",
+    "descricao": "Cappuccino",
+    "preco": 12.0
+  },
+  "Doce Carolina": {
+    "imagem": "../assets/img/carolinas.png",
+    "descricao": "Carolina",
+    "preco": 2.5
+  },
+  "Cafe Coado": {
+    "imagem": "../assets/img/coado.jpg",
+    "descricao": "Cafe Coado",
+    "preco": 4.0
+  },
+  "Cafe Expresso": {
+    "imagem": "../assets/img/expresso.jpg",
+    "descricao": "Cafe Express",
+    "preco": 6.0
+  },
+  "Pao Frances": {
+    "imagem": "../assets/img/frances.jpg",
+    "descricao": "Pao Frances",
+    "preco": 2.0
+  },
+  "Pao Integral": {
+    "imagem": "../assets/img/integral.png",
+    "descricao": "Pao Integral",
+    "preco": 9.0
+  },
+  "Pao Mix de Graos": {
+    "imagem": "../assets/img/mixdegraos.jpg",
+    "descricao": "Pao Mix de Graos",
+    "preco": 15.0
+  },
+  "Cafe Mocaccino": {
+    "imagem": "../assets/img/mocaccino.jpg",
+    "descricao": "Mocaccino",
+    "preco": 17.0
+  },
+  "Lanche Pao com Ovo": {
+    "imagem": "../assets/img/paocomovo.png",
+    "descricao": "Pao com Ovo",
+    "preco": 5.0
+  },
+  "Pao de Leite": {
+    "imagem": "../assets/img/paodeleite.jpg",
+    "descricao": "Pao de Leite",
+    "preco": 3.0
+  },
+  "Pao de Queijo": {
+    "imagem": "../assets/img/paodequeijo.jpg",
+    "descricao": "Pao de Queijo",
+    "preco": 1.5
+  },
+  "Lanche Pao na Chapa": {
+    "imagem": "../assets/img/paonachapa.jpg",
+    "descricao": "Pao na Chapa",
+    "preco": 5.5
+  },
+  "Lanche Pao na Chapa Com Requeijao": {
+    "imagem": "../assets/img/paonachapacomreq.jpg",
+    "descricao": "Pao na Chapa com Requeijao",
+    "preco": 7.5
+  },
+  "Pao Sovado": {
+    "imagem": "../assets/img/sovado.jpg",
+    "descricao": "Pao Sovado",
+    "preco": 12.0
+  },
+  "Torta de Frango": {
+    "imagem": "../assets/img/tortadefrango.jpg",
+    "descricao": "Torta de Frango",
+    "preco": 7.0
   }
 }

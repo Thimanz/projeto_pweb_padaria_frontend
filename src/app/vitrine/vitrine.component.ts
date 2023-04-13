@@ -14,4 +14,5 @@ interface produto {
 })
 export class VitrineComponent {
   produtosObject = produtos;
+  returnZero = () => 0;
 }

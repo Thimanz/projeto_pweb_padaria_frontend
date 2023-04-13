@@ -1,9 +1,39 @@
-<p>vitrine works!</p>
-<div>
-  <img
-    src="{{ produtosObject['Bolacha Trakinas'].imagem }}"
-    alt="trakinas"
-    width="300"
-    height="300"
-  />
+<div id="pageVitrine">
+  <div class="topline"></div>
+  <div class="menu">
+  <nav>
+    <ul>
+      <li><a id="linkVitrine" [routerLink]="['/vitrine']" routerLinkActive="router-link-active">VITRINE</a></li>
+      <li><a id="linkBusca" [routerLink]="['/produto-busca']" routerLinkActive="router-link-active">PRODUTOS</a></li>
+      <li><a href="header.component.htlm">LOGIN</a></li>      
+    </ul>
+  </nav>
+  </div>
+  <div class="downline"></div>
+
+  <div id="componentBody">
+    <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">
+      <ng-container
+        *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
+      >
+        <div
+          [ngSwitch]="produto.key"
+          id="linkDetalhe"
+          [routerLink]="['/detalhes']"
+          routerLinkActive="router-link-active"
+        >
+          <img
+            *ngSwitchCase="'imagem'"
+            src="{{ produto.value }}"
+            alt="imagem de produto"
+            width="200"
+            height="200"
+          />
+          <h4 *ngSwitchCase="'preco'">R$ {{ produto.value }}</h4>
+          <p *ngSwitchDefault id="descricao">{{ produto.value }}</p>
+        </div>
+      </ng-container>
+      <button id="comprar">Comprar</button>
+    </div>
+  </div>
 </div>
