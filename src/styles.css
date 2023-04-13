@@ -1,9 +1,4 @@
-html {
+body {
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  height: 200vh;
-  margin: 0;
 }

@@ -7,6 +7,11 @@ import { HeaderComponent } from './header/header.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
 import { ProdutoBuscaComponent } from './produto-busca/produto-busca.component';
 import { CestaComponent } from './cesta/cesta.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { EsqueciSenhaComponent } from './esqueci-senha/esqueci-senha.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,13 +19,19 @@ import { CestaComponent } from './cesta/cesta.component';
     HeaderComponent,
     VitrineComponent,
     ProdutoBuscaComponent,
-    CestaComponent
+    CestaComponent,
+    CadastroComponent,
+    LoginComponent,
+    EsqueciSenhaComponent,
   ],
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

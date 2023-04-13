@@ -1,0 +1,74 @@
+input {
+  height: 20px;
+}
+
+p {
+  font-weight: bold;
+}
+
+#DivEmail,
+#DivSenha {
+}
+#Entrar {
+  width: 25%;
+}
+#principal {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdf6e3;
+}
+#bloco {
+  display: flex;
+  width: 650px;
+  height: 50%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 18px 30px 0px rgba(0, 0, 0, 0.2);
+}
+#DivEsquerda {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-size: 100%;
+  background-color: #fffed6;
+}
+
+#DivDireita {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 100%;
+  text-align: center;
+  background-color: #faae47;
+}
+
+#Entrar {
+  margin-top: 1em;
+  width: 200px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #faae47;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#Entrar:hover {
+  background: #e38d34;
+}
+#Entrar:active {
+  background: #fb8f3a;
+}
+input {
+  height: 15px;
+  width: 180px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}

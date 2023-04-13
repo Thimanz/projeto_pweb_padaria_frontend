@@ -1,0 +1,14 @@
+<form class="form-control" [formGroup]="infoEsqueci">
+  <div id="centralizar">
+    <div id="conteudo">
+      <legend>Esqueci Senha</legend>
+
+      <h2 id="PinformeEmail">Informe seu email:</h2>
+      <div id="inputEmail">
+        <input type="email" id="Inpemail" formControlName="email" />
+      </div>
+      <button id="Confirmar" (click)="onClick()">Confirmar</button>
+      <p id="emailinvalido" *ngIf="!formularioValido">Email invalido!</p>
+    </div>
+  </div>
+</form>
