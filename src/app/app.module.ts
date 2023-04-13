@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
 import { ProdutoBuscaComponent } from './produto-busca/produto-busca.component';
 import { CestaComponent } from './cesta/cesta.component';
+import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CestaComponent } from './cesta/cesta.component';
     HeaderComponent,
     VitrineComponent,
     ProdutoBuscaComponent,
-    CestaComponent
+    CestaComponent,
+    ProdutoDetalheComponent
   ],
   imports: [
     BrowserModule,

@@ -7,26 +7,29 @@
 
   <div id="componentBody">
     <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">
-      <ng-container
-        *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
+      <div
+        id="linkDetalhe"
+        [routerLink]="['/produto-detalhe', produtos.key]"
+        routerLinkActive="router-link-active"
       >
-        <div
-          [ngSwitch]="produto.key"
-          id="linkDetalhe"
-          [routerLink]="['/detalhes']"
-          routerLinkActive="router-link-active"
+        <ng-container
+          *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
         >
-          <img
-            *ngSwitchCase="'imagem'"
-            src="{{ produto.value }}"
-            alt="imagem de produto"
-            width="200"
-            height="200"
-          />
-          <h4 *ngSwitchCase="'preco'">R${{ produto.value }}</h4>
-          <p *ngSwitchDefault id="descricao">{{ produto.value }}</p>
-        </div>
-      </ng-container>
+          <ng-container [ngSwitch]="produto.key">
+            <img
+              *ngSwitchCase="'imagem'"
+              src="{{ produto.value }}"
+              alt="imagem de produto"
+              width="200"
+              height="200"
+            />
+            <h4 *ngSwitchCase="'preco'" id="preco">R${{ produto.value }}</h4>
+            <p *ngSwitchCase="'descricao'" id="descricao">
+              {{ produto.value }}
+            </p>
+          </ng-container>
+        </ng-container>
+      </div>
       <button id="comprar">Comprar</button>
     </div>
   </div>

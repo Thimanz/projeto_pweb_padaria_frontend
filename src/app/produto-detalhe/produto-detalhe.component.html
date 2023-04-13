@@ -1,0 +1,20 @@
+<div id="pageDetalhe">
+  <div class="topline"></div>
+  <div class="menu">
+    <p>Menu</p>
+  </div>
+  <div class="downline"></div>
+  <div id="content">
+    <div id="divImg">
+      <img src="{{ produto.imagem }}" alt="Imagem de {{ produto.descricao }}" />
+    </div>
+    <div id="detalhes">
+      <h2 id="descricao">{{ produto.descricao }}</h2>
+      <p>{{ produto.detalhes }}</p>
+      <div id="divComprar">
+        <h2 id="preco">R${{ produto.preco }}</h2>
+        <button id="comprar">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>

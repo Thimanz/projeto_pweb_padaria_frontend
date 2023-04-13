@@ -1,162 +1,194 @@
 {
-  "Bolacha Trakinas": {
+  "BolachaTrakinas": {
     "imagem": "../assets/img/trakinas.png",
     "descricao": "Bolacha Trankinas",
-    "preco": 5.0
+    "preco": 5.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Bauducco": {
+  "BolachaBauducco": {
     "imagem": "../assets/img/bauducco.png",
     "descricao": "Bolacha Bauducco Recheada ",
-    "preco": 5.5
+    "preco": 5.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Bauducco Chocolate": {
+  "BolachaBauduccoChocolate": {
     "imagem": "../assets/img/bauducco2.png",
     "descricao": "Bolacha Bauducco Chocolate",
-    "preco": 4.5
+    "preco": 4.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Bono": {
+  "BolachaBono": {
     "imagem": "../assets/img/bono.png",
     "descricao": "Bolacha Bono",
-    "preco": 3.5
+    "preco": 3.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Oreo": {
+  "BolachaOreo": {
     "imagem": "../assets/img/bauducco.png",
     "descricao": "Bolacha Oreo",
-    "preco": 4.25
+    "preco": 4.25,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Panco": {
+  "BolachaPanco": {
     "imagem": "../assets/img/panco.jpg",
     "descricao": "Bolacha Panco",
-    "preco": 5.5
+    "preco": 5.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Passatempo": {
+  "BolachaPassatempo": {
     "imagem": "../assets/img/passatempo.png",
     "descricao": "Bolacha Passatempo",
-    "preco": 4.0
+    "preco": 4.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Toddy": {
+  "BolachaToddy": {
     "imagem": "../assets/img/toddy.png",
     "descricao": "Bolacha Toddy",
-    "preco": 3.5
+    "preco": 3.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolacha Toddy Morango": {
+  "BolachaToddyMorango": {
     "imagem": "../assets/img/toddy2.png",
     "descricao": "Bolacha Toddy Morango",
-    "preco": 3.5
+    "preco": 3.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Lanche Bauruzinho": {
+  "LancheBauruzinho": {
     "imagem": "../assets/img/bauruzinho.jpg",
     "descricao": "Lanche Bauruzinho",
-    "preco": 7.0
+    "preco": 7.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Doce Beijinho": {
+  "DoceBeijinho": {
     "imagem": "../assets/img/beijinho.jpg",
     "descricao": "Doce Beijinho",
-    "preco": 2.5
+    "preco": 2.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Doce Bicho de Pe": {
+  "DoceBichoDePe": {
     "imagem": "../assets/img/bichodepe.jpg",
     "descricao": "Doce Bicho de Pe",
-    "preco": 2.5
+    "preco": 2.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolo de Chocolate": {
+  "BoloDeChocolate": {
     "imagem": "../assets/img/bolodechocolate.jpg",
     "descricao": "Bolo de Chocolate",
-    "preco": 25.0
+    "preco": 25.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Bolo de Coco": {
+  "BoloDeCoco": {
     "imagem": "../assets/img/bolodecoco.jpg",
     "descricao": "Bolo de Coco",
-    "preco": 20.0
+    "preco": 20.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Doce Brigadeiro": {
+  "DoceBrigadeiro": {
     "imagem": "../assets/img/brigadeiro.jpg",
     "descricao": "Doce Brigadeiro",
-    "preco": 2.5
+    "preco": 2.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Doce Cajuzinho": {
+  "DoceCajuzinho": {
     "imagem": "../assets/img/cajuzinho.jpg",
     "descricao": "Doce Cajuzinho",
-    "preco": 2.5
+    "preco": 2.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Cafe com Leite": {
+  "CafeComLeite": {
     "imagem": "../assets/img/cafecomleite.jpg",
     "descricao": "Cafe com Leite",
-    "preco": 7.0
+    "preco": 7.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Cafe Cappuccino": {
+  "CafeCappuccino": {
     "imagem": "../assets/img/cappuccino.jpg",
     "descricao": "Cappuccino",
-    "preco": 12.0
+    "preco": 12.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Doce Carolina": {
+  "DoceCarolina": {
     "imagem": "../assets/img/carolinas.png",
     "descricao": "Carolina",
-    "preco": 2.5
+    "preco": 2.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Cafe Coado": {
+  "CafeCoado": {
     "imagem": "../assets/img/coado.jpg",
     "descricao": "Cafe Coado",
-    "preco": 4.0
+    "preco": 4.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Cafe Expresso": {
+  "CafeExpresso": {
     "imagem": "../assets/img/expresso.jpg",
     "descricao": "Cafe Express",
-    "preco": 6.0
+    "preco": 6.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Pao Frances": {
+  "PaoFrances": {
     "imagem": "../assets/img/frances.jpg",
     "descricao": "Pao Frances",
-    "preco": 2.0
+    "preco": 2.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Pao Integral": {
+  "PaoIntegral": {
     "imagem": "../assets/img/integral.png",
     "descricao": "Pao Integral",
-    "preco": 9.0
+    "preco": 9.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Pao Mix de Graos": {
+  "PaoMixDeGraos": {
     "imagem": "../assets/img/mixdegraos.jpg",
     "descricao": "Pao Mix de Graos",
-    "preco": 15.0
+    "preco": 15.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Cafe Mocaccino": {
+  "CafeMocaccino": {
     "imagem": "../assets/img/mocaccino.jpg",
     "descricao": "Mocaccino",
-    "preco": 17.0
+    "preco": 17.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Lanche Pao com Ovo": {
+  "LanchePaoComOvo": {
     "imagem": "../assets/img/paocomovo.png",
     "descricao": "Pao com Ovo",
-    "preco": 5.0
+    "preco": 5.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Pao de Leite": {
+  "PaoDeLeite": {
     "imagem": "../assets/img/paodeleite.jpg",
     "descricao": "Pao de Leite",
-    "preco": 3.0
+    "preco": 3.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Pao de Queijo": {
+  "PaoDeQueijo": {
     "imagem": "../assets/img/paodequeijo.jpg",
     "descricao": "Pao de Queijo",
-    "preco": 1.5
+    "preco": 1.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Lanche Pao na Chapa": {
+  "LanchePaoNaChapa": {
     "imagem": "../assets/img/paonachapa.jpg",
     "descricao": "Pao na Chapa",
-    "preco": 5.5
+    "preco": 5.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Lanche Pao na Chapa Com Requeijao": {
+  "LanchePaoNaChapaComRequeijao": {
     "imagem": "../assets/img/paonachapacomreq.jpg",
     "descricao": "Pao na Chapa com Requeijao",
-    "preco": 7.5
+    "preco": 7.5,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Pao Sovado": {
+  "PaoSovado": {
     "imagem": "../assets/img/sovado.jpg",
     "descricao": "Pao Sovado",
-    "preco": 12.0
+    "preco": 12.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   },
-  "Torta de Frango": {
+  "TortaDeFrango": {
     "imagem": "../assets/img/tortadefrango.jpg",
     "descricao": "Torta de Frango",
-    "preco": 7.0
+    "preco": 7.0,
+    "detalhes": "Gostosos e divertidos, os biscoitos Trakinas fazem a cabeça da criançada! Com massa crocante de chocolate e recheio de chocolate, os biscoitos tem diferentes expressões para deixar tudo mais divertido!\nIngredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal hidrogenada, gordura vegetal, açúcar invertido, carbonato de cálcio, cacau, sal, corantes: corante caramelo III, carmim e beta-caroteno sintético, fermentos químicos: fosfato monocálcico, bicarbonato de sódio e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico. Alérgicos: contém derivados de trigo e soja. Pode conter cevada, avelã, leite, aveia e centeio. Contém glúten.\nInformação Nutricional:\nPorção de 30g (3 biscoitos)\nValor energético 143kcal (7%)\nCarboidratos 22g (7%)\nAçúcares 9,2g (**)\nProteínas 1,6g (2%)\nGorduras totais 5,4g (10%)\nGorduras saturadas 1,9g (9%)\nGorduras trans 0g (**)\nFibra alimentar 0g (0%)\nSódio 78mg (3%)"
   }
 }
