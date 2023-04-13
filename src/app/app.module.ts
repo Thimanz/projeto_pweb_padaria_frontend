@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.compo
     LoginComponent,
     EsqueciSenhaComponent,
     ProdutoDetalheComponent,
+    MenuComponent,
   ],
   imports: [
     ReactiveFormsModule,

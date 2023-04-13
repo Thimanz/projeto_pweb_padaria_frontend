@@ -1,29 +1,5 @@
 <div id="pageCesta">
-  <div class="topline"></div>
-  <div class="menu">
-    <nav>
-      <ul>
-        <li>
-          <a
-            id="linkVitrine"
-            [routerLink]="['/vitrine']"
-            routerLinkActive="router-link-active"
-            >VITRINE</a
-          >
-        </li>
-        <li>
-          <a
-            id="linkBusca"
-            [routerLink]="['/produto-busca']"
-            routerLinkActive="router-link-active"
-            >PRODUTOS</a
-          >
-        </li>
-        <li><a href="header.component.htlm">LOGIN</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="downline"></div>
+  <app-menu></app-menu>
   <div class="textBody">
     <span> Sua Cesta </span>
     <img src="../../assets/img/cestinha.png" width="30" height="24" />

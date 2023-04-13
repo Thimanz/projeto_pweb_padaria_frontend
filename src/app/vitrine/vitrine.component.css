@@ -30,17 +30,15 @@
   border: 2px black solid;
   width: 80%;
 }
-.textBody{
+.textBody {
   width: 90%;
   margin: 20px 10px 10px 35px;
-
 }
-.textBody span{
-  font-family:Arial, Helvetica, sans-serif;
+.textBody span {
+  font-family: Arial, Helvetica, sans-serif;
   color: darkorange;
   font-size: 20px;
   position: static;
-
 }
 #imgConfig {
   margin-left: 50px;
@@ -80,42 +78,10 @@ img {
 
 #descricao {
   text-decoration: underline;
-   font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #linkDetalhe:hover,
 #comprar:hover {
   cursor: pointer;
-}
-nav {
-  position: static;
-  padding: 0px;
-}
-
-ul{
-  display: inline-block;
-  width: 20%;
-  margin-right: 15%;
-  height: 0px;
-  padding: 0px;
-  margin-top: 0px;
-}
-nav li {
-  display: inline;
-  margin: 0 0 0 20px;
-  padding: 0px;
-}
-
-nav a {
-  text-transform: uppercase;
-  font-size: 18px;
-  text-decoration: none;
-  font-family:Arial, Helvetica, sans-serif;
-  color: darkorange;
-
-}
-
-nav a:hover {
-  color: black;
-  text-decoration: underline;
 }

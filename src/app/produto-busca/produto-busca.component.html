@@ -1,30 +1,19 @@
 <div id="pageSearch">
-  <div class="topline"></div>
-  <div class="menu">
-  <nav>
-    <ul>
-      <li><a id="linkVitrine" [routerLink]="['/vitrine']" routerLinkActive="router-link-active">VITRINE</a></li>
-      <li><a id="linkBusca" [routerLink]="['/produto-busca']" routerLinkActive="router-link-active">PRODUTOS</a></li>
-      <li><a href="header.component.htlm">LOGIN</a></li>      
-    </ul>
-  </nav>
-  </div>
-  <div class="downline"></div>
-
+  <app-menu></app-menu>
   <div class="textBody">
-    <span> Pesquisa por:
-    </span>
-  </div> 
+    <span> Pesquisa por: </span>
+  </div>
   <div id="componentBody">
     <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">
       <ng-container
         *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
       >
-        <div          
-        [ngSwitch]="produto.key"
-        id="linkDetalhe"
-        [routerLink]="['/produto-busca']"
-        routerLinkActive="router-link-active">
+        <div
+          [ngSwitch]="produto.key"
+          id="linkDetalhe"
+          [routerLink]="['/produto-busca']"
+          routerLinkActive="router-link-active"
+        >
           <img
             *ngSwitchCase="'imagem'"
             src="{{ produto.value }}"
@@ -33,14 +22,20 @@
             height="200"
           />
           <h4 *ngSwitchCase="'preco'">R$ {{ produto.value }}</h4>
-          <p *ngSwitchDefault id="descricao">{{ produto.value }}</p>
+          <p *ngSwitchCase="'descricao'" id="descricao">{{ produto.value }}</p>
         </div>
       </ng-container>
       <div class="cesta">
-      <a>
-      <input type="button" value="Comprar" id="comprar" [routerLink]="['/cesta']" routerLinkActive="router-link-active"/>
-    </a>
-  </div>
-    </div>    
+        <a>
+          <input
+            type="button"
+            value="Comprar"
+            id="comprar"
+            [routerLink]="['/cesta']"
+            routerLinkActive="router-link-active"
+          />
+        </a>
+      </div>
+    </div>
   </div>
 </div>

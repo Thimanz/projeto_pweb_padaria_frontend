@@ -19,7 +19,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fdf6e3;
 }
 #bloco {
   display: flex;
@@ -60,11 +59,10 @@ p {
   cursor: pointer;
 }
 #Entrar:hover {
+  transform: scale(1.02);
   background: #e38d34;
 }
-#Entrar:active {
-  background: #fb8f3a;
-}
+
 input {
   height: 15px;
   width: 180px;
