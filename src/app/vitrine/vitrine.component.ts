@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import produtos from '../produtos.json';
+import { ProdutosServiceService } from '../services/produtos-service.service';
 
 interface produto {
   descricao: String;
@@ -13,6 +13,18 @@ interface produto {
   styleUrls: ['./vitrine.component.css'],
 })
 export class VitrineComponent {
-  produtosObject = produtos;
+  produtosObject: Object;
+
+  constructor(private service: ProdutosServiceService) {
+    this.listar();
+  }
+
+  listar() {
+    this.service.getProdutos().subscribe({
+      next: (data: Object) => {
+        this.produtosObject = data;
+      },
+    });
+  }
   returnZero = () => 0;
 }

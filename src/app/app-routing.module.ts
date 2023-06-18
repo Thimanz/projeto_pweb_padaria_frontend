@@ -15,7 +15,7 @@ const routes: Routes = [
     component: VitrineComponent,
   },
   {
-    path: 'produto-detalhe/:produto',
+    path: 'produto-detalhe',
     component: ProdutoDetalheComponent,
   },
   {
