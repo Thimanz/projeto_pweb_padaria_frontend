@@ -1,3 +1,9 @@
+#cadastroValido {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 #dadosInvalidos {
   color: red;
   font-weight: bold;
