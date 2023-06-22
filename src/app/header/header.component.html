@@ -8,6 +8,7 @@
       type="text"
       name="search"
       id="search-text"
+      [(ngModel)]="descricao"
       placeholder="Buscar Produto"
       autocomplete="off"
     />
@@ -16,7 +17,7 @@
         type="button"
         value="Ok"
         id="search-button"
-        [routerLink]="['/produto-busca']"
+        [routerLink]="['/produto-busca', descricao ]"
         routerLinkActive="router-link-active"
       />
     </a>

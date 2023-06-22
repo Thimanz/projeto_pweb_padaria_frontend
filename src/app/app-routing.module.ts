@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ProdutoDetalheComponent,
   },
   {
-    path: 'produto-busca',
+    path: 'produto-busca/:descricao',
     component: ProdutoBuscaComponent,
   },
   {

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import produtos from '../produtos.json';
+import { ProdutosServiceService } from '../services/produtos-service.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-produto-busca',
@@ -7,6 +8,25 @@ import produtos from '../produtos.json';
   styleUrls: ['./produto-busca.component.css'],
 })
 export class ProdutoBuscaComponent {
-  produtosObject = produtos;
+  produtosObject: Object;
+  descricaoProduto: String;
+
+  constructor(
+    private route: ActivatedRoute,
+    private service: ProdutosServiceService
+  ) {
+    this.descricaoProduto = String(
+      this.route.snapshot.paramMap.get('descricao')
+    );
+    this.listar();
+  }
+
+  listar() {
+    this.service.getBuscaProduto(this.descricaoProduto).subscribe({
+      next: (data: Object) => {
+        this.produtosObject = data;
+      },
+    });
+  }
   returnZero = () => 0;
 }
