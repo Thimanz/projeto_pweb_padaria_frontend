@@ -16,4 +16,8 @@ export class ProdutosServiceService {
   getProduto(codigo: Number): Observable<Produto> {
     return this.http.get<Produto>('http://localhost:1000/produtos/' + codigo);
   }
+
+  getBuscaProduto(descricao: String): Observable<Object> {
+    return this.http.get<Object>('http://localhost:1000/produtos-busca/' + descricao);
+  }
 }
