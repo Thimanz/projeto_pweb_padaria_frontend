@@ -45,7 +45,7 @@ export class LoginComponent {
         null,
         Validators.compose([
           Validators.required,
-          Validators.pattern(/[A-z\s]{4,50}/),
+          Validators.pattern(/[A-z0-9\s]{4,50}/),
         ]),
       ],
     });
