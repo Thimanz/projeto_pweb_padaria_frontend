@@ -54,12 +54,15 @@
         />
       </div>
       <div id="cadastros">
-        <button type="button" id="cadastrar" (click)="onClick()">
+        <button type="button" id="cadastrar" (click)="cadastro()">
           Cadastrar
         </button>
       </div>
       <p id="dadosInvalidos" *ngIf="!formularioValido">
         campos nao preenchidos corretamente!
+      </p>
+      <p id="cadastroValido" *ngIf="cadastroEfetuado">
+        Cadastro efetuado com sucesso
       </p>
     </div>
   </div>

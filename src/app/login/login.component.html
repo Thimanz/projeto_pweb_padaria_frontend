@@ -12,10 +12,11 @@
           <p id="SenhaP">Senha:</p>
           <input type="password" id="senhaLogin" formControlName="senha" />
         </div>
-        <button id="Entrar" (click)="onClick()">Entrar</button>
+        <button id="Entrar" (click)="doLogin()">Entrar</button>
         <p id="dadosInvalidos" *ngIf="!formularioValido">
           Email ou senha invalidos !
         </p>
+
         <a
           [routerLink]="['/esqueci-senha']"
           routerLinkActive="router-link-active"

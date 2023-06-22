@@ -7,6 +7,11 @@ import {
   ValidatorFn,
   Validators,
 } from '@angular/forms';
+import { ClienteServiceService } from '../services/cliente-service.service';
+
+import { Cliente } from '../models/cliente';
+import { LocalStorageService } from '../services/local-storage.service';
+import cli from '@angular/cli';
 
 @Component({
   selector: 'app-login',
@@ -17,22 +22,17 @@ export class LoginComponent {
   infoLogin: FormGroup;
   inputEmail: String;
   formularioValido: boolean = true;
+  private cliente: Cliente;
 
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(
+    private formBuilder: FormBuilder,
+    private clienteService: ClienteServiceService,
+    private localStorageService: LocalStorageService
+  ) {}
 
   ngOnInit(): void {
-    function validarEmail(): ValidatorFn {
-      return (control: AbstractControl): ValidationErrors | null => {
-        const value = control.value;
+    this.cliente = new Cliente();
 
-        const emailValido =
-          /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|.(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/.test(
-            value
-          );
-
-        return !emailValido ? { emailValido: true } : null;
-      };
-    }
     this.infoLogin = this.formBuilder.group({
       email: [
         null,
@@ -50,11 +50,33 @@ export class LoginComponent {
       ],
     });
   }
-  onClick() {
+  public doLogin(): void {
     if (this.infoLogin.valid) {
       this.formularioValido = true;
     } else {
       this.formularioValido = false;
     }
+
+    this.clienteService.doLogin(this.infoLogin.value.email).subscribe({
+      next: (data: Cliente) => {
+        this.cliente = data;
+
+        if (this.cliente.senha === this.infoLogin.value.senha) {
+          this.formularioValido = true;
+          this.localStorageService.isLogged(true);
+
+          this.clienteService.getSession(this.cliente.codigo).subscribe({
+            next: (data: any) => {
+              this.localStorageService.setSession(data.sessionId);
+            },
+          });
+        } else {
+          this.formularioValido = false;
+        }
+      },
+      error: (erro: any) => {
+        this.formularioValido = false;
+      },
+    });
   }
 }
