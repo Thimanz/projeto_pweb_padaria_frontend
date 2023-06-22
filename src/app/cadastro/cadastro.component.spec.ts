@@ -1,10 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import {
-  FormGroup,
-  FormBuilder,
-  Validators,
-  FormControl,
-} from '@angular/forms';
+import {} from '@angular/forms';
 import { CadastroComponent } from './cadastro.component';
 
 describe('CadastroComponent', () => {

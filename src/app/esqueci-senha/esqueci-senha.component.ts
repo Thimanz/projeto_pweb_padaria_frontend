@@ -1,15 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  FormsModule,
-  FormControl,
-  FormGroup,
-  NgModel,
-  Validators,
-  ValidatorFn,
-  AbstractControl,
-  ValidationErrors,
-  FormBuilder,
-} from '@angular/forms';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
+import { Cliente } from '../models/cliente';
+import { ClienteServiceService } from '../services/cliente-service.service';
+
 @Component({
   selector: 'app-esqueci-senha',
   templateUrl: './esqueci-senha.component.html',
@@ -19,22 +12,14 @@ export class EsqueciSenhaComponent implements OnInit {
   infoEsqueci: FormGroup;
   inputEmail: String;
   formularioValido: boolean = true;
+  private cliente: Cliente;
 
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(
+    private formBuilder: FormBuilder,
+    private clienteService: ClienteServiceService
+  ) {}
 
   ngOnInit(): void {
-    // function validarEmail(): ValidatorFn {
-    //   return (control: AbstractControl): ValidationErrors | null => {
-    //     const value = control.value;
-
-    //     const emailValido =
-    //       /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|.(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/.test(
-    //         value
-    //       );
-
-    //     return !emailValido ? { emailValido: true } : null;
-    //   };
-    // }
     this.infoEsqueci = this.formBuilder.group({
       email: [
         null,
@@ -46,10 +31,23 @@ export class EsqueciSenhaComponent implements OnInit {
     });
   }
   onClick() {
-    if (this.infoEsqueci.valid) {
-      this.formularioValido = true;
-    } else {
-      this.formularioValido = false;
-    }
+    this.clienteService.doLogin(this.infoEsqueci.value.email).subscribe({
+      next: (data: Cliente) => {
+        this.cliente = data;
+
+        this.clienteService
+          .enviarEmail({
+            nome: this.cliente.nome,
+            email: this.cliente.email,
+            senha: this.cliente.senha,
+          })
+          .subscribe({
+            next: (data: Object) => {},
+          });
+      },
+      error: (erro: any) => {
+        this.formularioValido = false;
+      },
+    });
   }
 }

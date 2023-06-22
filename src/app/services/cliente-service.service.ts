@@ -14,7 +14,6 @@ export class ClienteServiceService {
       cliente
     );
   }
-
   public doLogin(email: String): Observable<Cliente> {
     return this.httpClient.get<Cliente>(
       `http://localhost:1000/clientes/${email}`
@@ -23,6 +22,12 @@ export class ClienteServiceService {
   public getSession(codCliente: Number) {
     return this.httpClient.get<any>(
       'http://localhost:1000/session/' + codCliente
+    );
+  }
+  public enviarEmail<Object>(dadosEmail: Object) {
+    return this.httpClient.post<Object>(
+      `http://localhost:1000/email`,
+      dadosEmail
     );
   }
 }

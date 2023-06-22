@@ -1,17 +1,8 @@
 import { Component } from '@angular/core';
-import {
-  AbstractControl,
-  FormBuilder,
-  FormGroup,
-  ValidationErrors,
-  ValidatorFn,
-  Validators,
-} from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ClienteServiceService } from '../services/cliente-service.service';
-
 import { Cliente } from '../models/cliente';
 import { LocalStorageService } from '../services/local-storage.service';
-import cli from '@angular/cli';
 
 @Component({
   selector: 'app-login',
@@ -45,7 +36,7 @@ export class LoginComponent {
         null,
         Validators.compose([
           Validators.required,
-          Validators.pattern(/[A-z\s]{4,50}/),
+          Validators.pattern(/[A-z0-9\s]{4,50}/),
         ]),
       ],
     });

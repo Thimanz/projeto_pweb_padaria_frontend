@@ -1,13 +1,5 @@
 import { Component } from '@angular/core';
-import {
-  AbstractControl,
-  FormBuilder,
-  FormControl,
-  FormGroup,
-  ValidationErrors,
-  ValidatorFn,
-  Validators,
-} from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ValidarSenhaService } from '../services/validar-senha.service';
 import { Cliente } from '../models/cliente';
 import { ClienteServiceService } from '../services/cliente-service.service';
@@ -48,7 +40,7 @@ export class CadastroComponent {
         null,
         Validators.compose([
           Validators.required,
-          Validators.pattern(/[A-z\s]{4,50}/),
+          Validators.pattern(/[A-z0-9\s]{4,50}/),
         ]),
       ],
 
@@ -56,7 +48,7 @@ export class CadastroComponent {
         null,
         Validators.compose([
           Validators.required,
-          Validators.pattern(/[A-z\s]{4,50}/),
+          Validators.pattern(/[A-z0-9\s]{4,50}/),
           ValidarSenhaService.validarSenha,
         ]),
       ],
