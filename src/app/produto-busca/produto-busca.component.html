@@ -1,9 +1,13 @@
+<app-header></app-header>
 <div id="pageSearch">
   <app-menu></app-menu>
   <div class="textBody">
     <span> Pesquisa por: </span>
   </div>
-  <div id="componentBody">
+  <div id="divWarning" *ngIf="descricaoUndefined">
+    <p id="warning">Digite um item a ser buscado!</p>
+  </div>
+  <div id="componentBody" *ngIf="!descricaoUndefined">
     <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">
       <ng-container
         *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"

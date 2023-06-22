@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, DoCheck } from '@angular/core';
 import { ProdutosServiceService } from '../services/produtos-service.service';
 import { ActivatedRoute } from '@angular/router';
 
@@ -7,17 +7,37 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './produto-busca.component.html',
   styleUrls: ['./produto-busca.component.css'],
 })
-export class ProdutoBuscaComponent {
+export class ProdutoBuscaComponent implements DoCheck {
   produtosObject: Object;
   descricaoProduto: String;
+  descricaoUndefined: Boolean = false;
 
   constructor(
     private route: ActivatedRoute,
     private service: ProdutosServiceService
-  ) {
+  ) {}
+
+  ngDoCheck() {
+    if (
+      String(this.route.snapshot.paramMap.get('descricao')) !==
+      this.descricaoProduto
+    ) {
+      this.ngOnInit();
+    }
+  }
+
+  ngOnInit() {
     this.descricaoProduto = String(
       this.route.snapshot.paramMap.get('descricao')
     );
+    if (
+      !this.route.snapshot.paramMap.get('descricao') ||
+      this.route.snapshot.paramMap.get('descricao') === 'undefined'
+    ) {
+      this.descricaoUndefined = true;
+    } else {
+      this.descricaoUndefined = false;
+    }
     this.listar();
   }
 

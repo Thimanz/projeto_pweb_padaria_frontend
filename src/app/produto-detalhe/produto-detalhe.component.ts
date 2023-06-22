@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import produtos from '../produtos.json';
 import { ProdutosServiceService } from '../services/produtos-service.service';
 import { Produto } from '../models/produto';
 
