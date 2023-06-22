@@ -12,6 +12,11 @@ export class LocalStorageService {
   setSession(uuid: string) {
     this.storage.setItem('sessionId', uuid);
   }
+
+  getSession(): string {
+    return String(this.storage.getItem('sessionId'));
+  }
+
   isLogged(logged: boolean) {
     const loggedString = logged.toString();
     this.storage.setItem('isLogged', loggedString);

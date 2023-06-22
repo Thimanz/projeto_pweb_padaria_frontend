@@ -10,6 +10,9 @@
   border: 1px black solid;
   width: 90%;
   flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -25,7 +28,7 @@
   position: static;
 }
 
-#comprar {
+#limpar {
   margin-bottom: 15px;
   border: none;
   border-radius: 5px;
@@ -33,6 +36,15 @@
   height: 50px;
   background-color: #e38d34;
   margin-right: 30px;
+}
+
+#finalizar {
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  background-color: #e38d34;
 }
 
 .itemsCesta {
@@ -58,4 +70,8 @@ tbody td {
 
 .total {
   color: darkorange;
+}
+
+tr th {
+  width: 200px;
 }

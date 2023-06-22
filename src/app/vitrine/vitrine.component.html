@@ -27,7 +27,13 @@
           </ng-container>
         </ng-container>
       </div>
-      <button id="comprar">Comprar</button>
+      <button
+        id="comprar"
+        [routerLink]="['/cesta']"
+        routerLinkActive="router-link-active"
+      >
+        Comprar
+      </button>
     </div>
   </div>
 </div>

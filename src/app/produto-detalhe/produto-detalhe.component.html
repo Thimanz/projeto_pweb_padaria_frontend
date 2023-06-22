@@ -10,7 +10,14 @@
       <p>{{ produto.detalhes }}</p>
       <div id="divComprar">
         <h2 id="preco">R${{ produto.preco }}</h2>
-        <button id="comprar">Comprar</button>
+        <button
+          id="comprar"
+          [routerLink]="['/cesta']"
+          routerLinkActive="router-link-active"
+          (click)="adicionarCarrinho()"
+        >
+          Comprar
+        </button>
       </div>
     </div>
   </div>

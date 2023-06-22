@@ -9,26 +9,35 @@
   </div>
   <div id="componentBody" *ngIf="!descricaoUndefined">
     <div *ngFor="let produtos of produtosObject | keyvalue" id="produto">
-      <ng-container
-        *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
+      <div
+        id="linkDetalhe"
+        [routerLink]="['/produto-detalhe']"
+        [queryParams]="{ codigo: produtos.key }"
+        routerLinkActive="router-link-active"
       >
-        <div
-          [ngSwitch]="produto.key"
-          id="linkDetalhe"
-          [routerLink]="['/produto-busca']"
-          routerLinkActive="router-link-active"
+        <ng-container
+          *ngFor="let produto of $any(produtos.value) | keyvalue : returnZero"
         >
-          <img
-            *ngSwitchCase="'imagem'"
-            src="{{ produto.value }}"
-            alt="imagem de produto"
-            width="200"
-            height="200"
-          />
-          <h4 *ngSwitchCase="'preco'">R$ {{ produto.value }}</h4>
-          <p *ngSwitchCase="'descricao'" id="descricao">{{ produto.value }}</p>
-        </div>
-      </ng-container>
+          <div
+            [ngSwitch]="produto.key"
+            id="linkDetalhe"
+            [routerLink]="['/produto-busca']"
+            routerLinkActive="router-link-active"
+          >
+            <img
+              *ngSwitchCase="'imagem'"
+              src="{{ produto.value }}"
+              alt="imagem de produto"
+              width="200"
+              height="200"
+            />
+            <h4 *ngSwitchCase="'preco'">R$ {{ produto.value }}</h4>
+            <p *ngSwitchCase="'descricao'" id="descricao">
+              {{ produto.value }}
+            </p>
+          </div>
+        </ng-container>
+      </div>
       <div class="cesta">
         <a>
           <input

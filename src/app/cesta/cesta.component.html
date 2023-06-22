@@ -9,43 +9,29 @@
     <table>
       <thead>
         <tr>
-          <th class="cabecalho" colspan="5">Item</th>
-          <th class="cabecalho" colspan="5">Qtd</th>
-          <th class="cabecalho" colspan="5">Valor</th>
+          <th class="cabecalho" colspan="1">Item</th>
+          <th class="cabecalho" colspan="1">Qtd</th>
+          <th class="cabecalho" colspan="1">Valor</th>
         </tr>
       </thead>
       <tbody>
+        <ng-container *ngFor="let item of carrinho">
+          <tr>
+            <td colspan="1">{{ item.descricaoproduto }}</td>
+            <td colspan="1">{{ item.quantidade }}x</td>
+            <td colspan="1">R$ {{ item.valortotal.toFixed(2) }}</td>
+          </tr>
+        </ng-container>
         <tr>
-          <td colspan="5">Bolo de Chocolate</td>
-          <td colspan="5">1x</td>
-          <td colspan="5">R$ 25.00</td>
-        </tr>
-
-        <tr>
-          <td colspan="5">Moccacino</td>
-          <td colspan="5">2x</td>
-          <td colspan="5">R$ 34.00</td>
-        </tr>
-        <tr>
-          <td colspan="5">Torta de Frango</td>
-          <td colspan="5">2x</td>
-          <td colspan="5">R$ 14.00</td>
-        </tr>
-        <tr>
-          <td colspan="5">Pão de Leite</td>
-          <td colspan="5">5x</td>
-          <td colspan="5">R$ 15.00</td>
-        </tr>
-        <tr>
-          <td colspan="5"></td>
-          <td class="total" colspan="5">Valor Total:</td>
-          <td class="total" colspan="5">R$ 88.00</td>
+          <td colspan="1"></td>
+          <td class="total" colspan="1">Valor Total:</td>
+          <td class="total" colspan="1">R$ {{ valorTotal.toFixed(2) }}</td>
         </tr>
       </tbody>
     </table>
     <div class="itemsCesta">
-      <input type="button" value="Limpar Cesta" id="comprar" />
-      <input type="button" value="Finalizar Compra" id="comprar" />
+      <input type="button" value="Limpar Cesta" id="limpar" />
+      <input type="button" value="Finalizar Compra" id="finalizar" />
     </div>
   </div>
 </div>
